@@ -1,0 +1,64 @@
+#login
+{
+    margin-top:2%;
+    margin-left: 40%;
+
+    height:45%;
+    width:25%;
+    position:fixed;
+    background-color:rgba(4, 20, 48, 0.847);
+border-radius: 70px;
+    display:none;
+    
+
+}
+#login  input[type="submit"]
+{
+  margin-left: 30%; 
+  padding-left:3%;
+  cursor: pointer;
+  padding-right:3% ;
+  border-radius: 11px;
+  border:none;
+}
+#login form input[type="email"]
+{
+
+  height:12%;
+  width:75%;
+  border-radius: 11px;
+
+}
+#login form input[type="password"]
+{
+    height:12%;
+    width:75%;
+    border-radius: 11px;
+  
+}
+#login input[type="reset"]
+{
+    margin-left:96%;
+    margin-top:-7%;
+ 
+   cursor:pointer;
+   height:7%;
+   width:5%;
+   border-radius: 110px;  background-color: rgb(16, 223, 188);
+
+}
+#usericon i
+{
+margin-left: 43%;
+margin-top: -10%;
+margin-bottom: 2%;
+color:rgb(24, 240, 236);
+}
+#signbtn
+{
+  border-radius:11px;
+  width:20%;
+  height:10%;
+  background-color: rgb(115, 123, 235);
+  cursor: pointer;
+}

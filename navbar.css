@@ -1,0 +1,63 @@
+#navbar
+{
+    width:100%;
+    margin:auto;
+    padding:0.5% 0;
+    align-items: center;
+    align-items: center;
+    background-color: #333;
+
+   
+}
+
+
+#navbar input[type="button"]
+{
+  
+border-radius: 11px;
+padding-left:2%;
+padding-right: 2%;
+background-color: white;
+margin-right: 2%;
+padding-top:0.2%;
+padding-bottom:0.2%;
+margin-top:-1%;
+
+
+text-transform: uppercase;
+
+cursor: pointer;
+opacity: 0.6;
+}
+#navbar input[type="button"]:hover {opacity: 4;}
+
+
+.menu {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding:0.3%;
+    height:10%;
+    
+  }
+
+  .menu  input[type="button"]{
+    display: block;
+    color:white;
+  
+    margin-bottom: 5px;
+    background-color: black;
+   
+  }
+
+  .menu a:hover {
+    background-color: #ddd;
+  }
+  #navbar button
+  {
+  cursor: pointer;
+ 
+  }
+

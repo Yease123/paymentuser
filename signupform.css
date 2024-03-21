@@ -1,0 +1,56 @@
+#signupform
+{
+width:30%;
+height:80%;
+position:fixed;
+background-color: antiquewhite;
+margin-left:40%;
+text-align: center;
+display: none;
+
+
+}
+#signupform form input[type="text"]
+{
+
+
+    height:8%;
+    width:50%;
+   
+}
+#signupform form input[type="email"]
+{
+    
+margin-bottom:2%;
+
+    height:8%;
+    width:50%;
+}
+#signupform form input[type="password"]
+{
+   margin-bottom:2%;
+    height:8%;
+    width:50%;
+}
+#signupform form input[type="submit"]
+{
+   margin-bottom:2%;
+    height:8%;
+    width:35%;
+    background: -webkit-linear-gradient(right, #ec8015, #796dea, #0ed8ea, #ec0d1c);
+cursor: pointer;
+}
+#s1,#s2,#s3,#s4
+{
+    height:1%;
+    color:red;
+    font-size: smaller;
+    margin-bottom: 3%;
+    margin-top: 0%;
+    
+}
+#loginfromsignup
+{
+    background-color: #796dea;
+    cursor: pointer;
+}

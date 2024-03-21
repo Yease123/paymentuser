@@ -1,0 +1,24 @@
+#content
+{
+    
+    width:85%;
+    height:15%;
+  
+    margin:auto;
+   
+   
+   text-transform:uppercase;
+    color:white;
+   text-align: center;
+    
+    animation-name: ishan;
+    animation-duration: 9s;
+   
+}
+@keyframes ishan
+{
+    0% {color:aqua;}
+    25% {color:red;}
+    50% {color:yellow;}
+    100%{color:green;}
+}

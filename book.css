@@ -1,0 +1,67 @@
+#bookbody
+{
+height:50%;
+width:100%;
+
+}
+#seats
+{
+    margin-top:1px;
+float:right;
+height:20%;
+width:20%;
+border:1px solid black
+
+}
+#showseat
+{
+    height:100%;
+    width:70%;
+    float:left;
+    border:1px solid black;
+}
+#selectedseat
+{
+    
+    height:100%;
+    width:29%;
+  float:right; 
+  border:1px solid black;
+  background-image: linear-gradient(rgba(11, 11, 11, 0.75),rgba(0, 0, 0, 0.75)),url(selected.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+#selectedseat form input[type="reset"]
+{
+
+width:15%;
+height:7%;
+background-color: #448aff;
+
+cursor:pointer;
+}
+
+#selectedseat form input[type="reset"]:hover
+{
+    border-radius:12px;
+}
+#selectedseat form input[type="submit"]
+{
+    
+   background-color:red; 
+   width:15%;
+height:7%;
+cursor: pointer;
+    
+}
+#showseat input[type="button"]
+{
+    height:7%;
+    margin-bottom: 2%;
+    border-radius: 21px;
+}
+#selectedseat form input[type="submit"]:hover
+{
+   border-radius: 21px; 
+   
+}

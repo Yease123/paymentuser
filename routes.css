@@ -1,0 +1,205 @@
+*
+{
+margin:0;
+padding:0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#routesbody
+{
+    height:60%;
+    width:100%;
+    background-color: rgba(127, 255, 212, 0.252);
+    text-align: center;
+
+}
+#routesbody input[type="text"]
+{
+    width:15%;
+    height:7%;
+    margin-left: 2px;
+    margin-top:20px;
+
+
+}
+#routesbody input[type="date"]
+{
+    width:10%;
+    height:6%;
+    margin-left: 2px;
+}
+#routesbody input[type="button"]
+{
+  width:5%;
+  height:7%; 
+background-color: #448aff;
+border-radius: 4px;
+transition: 0.5s;
+}
+#routesbody input[type="button"]:hover {border-radius: 20px;}
+#index
+{
+    height:10%;
+    width:60%;
+    background-color: #f9ff44;
+    margin-left: 24%;
+    margin-top: 0.5%;
+    color:white;
+    font-style: italic;
+}
+#index #bustype
+{
+height:100%;
+width:13%;
+background-color: rgb(59, 203, 19);
+float:left;
+
+}
+#index #from
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(227, 18, 18);
+}
+#index #to
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(70, 18, 227);
+}
+#index #departure
+{
+    height:100%;
+    width:9%;
+    float:left;
+    background-color: rgb(227, 77, 18);
+}
+#index #available
+{
+    height:100%;
+    width:9%;
+    float:left;
+    background-color: rgb(18, 227, 35);
+}
+#index #fare
+{
+    height:100%;
+    width:7%;
+    float:left;
+    background-color: rgb(227, 18, 18);
+}
+#index #datee
+{
+    height:100%;
+    width:11.5%;
+    float:left;
+    background-color: rgb(18, 196, 227);
+}
+#index #bussnumber
+{
+    height:100%;
+    width:11.5%;
+    float:left;
+    background-color: rgb(18, 227, 35);
+}
+#index #book
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(58, 12, 206);
+}
+#businfo
+{
+    height:10%;
+    width:60%;
+    background-color: #f9ff44;
+    margin-left: 24%;
+    margin-top: 0.5%;
+    color:white;
+    
+}
+#businfo #bustype
+{
+height:100%;
+width:13%;
+background-color: rgb(37, 203, 19);
+float:left;
+
+}
+#businfo #from
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(227, 18, 18);
+}
+#businfo #to
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(70, 18, 227);
+}
+#businfo #departure
+{
+    height:100%;
+    width:9%;
+    float:left;
+    background-color: rgb(227, 77, 18);
+}
+#businfo #available
+{
+    height:100%;
+    width:9%;
+    float:left;
+    background-color: rgb(18, 227, 35);
+}
+#businfo #fare
+{
+    height:100%;
+    width:7%;
+    float:left;
+    background-color: rgb(227, 18, 18);
+}
+#businfo #datee
+{
+    height:100%;
+    width:11.5%;
+    float:left;
+    background-color: rgb(18, 196, 227);
+}
+#businfo #bussnumber
+{
+    height:100%;
+    width:11.5%;
+    float:left;
+    background-color: rgb(18, 227, 35);
+}
+
+#businfo #book
+{
+    height:100%;
+    width:13%;
+    float:left;
+    background-color: rgb(67, 18, 227);
+}
+
+#businfo input[type="text"]
+{
+    width: 100%;
+    height:100%;
+    margin:auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+#businfo input[type="button"]
+{
+    width:100%;
+    height: 100%;
+}
+#overflow
+{
+    overflow: auto;
+}
